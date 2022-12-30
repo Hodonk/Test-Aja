@@ -27,33 +27,33 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/'
-global.syt = 'https://youtube.com/@hagozox'
-global.sgh = 'https://github.com/'
-global.sgc = '-' //Your Gc
-global.swa = 'wa.me/6289636371132'
+global.sig = 'https://instagram.com/fuadxy99'
+global.syt = '-'
+global.sgh = 'https://github.com/FuadZy-MultiDevice'
+global.sgc = 'https://chat.whatsapp.com/EAR7T7H59vOJz8KcwMP179' //Your Gc
+global.swa = 'wa.me/6283837709331'
 global.swb = ''
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = '-' //tambahin sndiri 
-global.povo = '-'
+global.pdana = '083837709331' //tambahin sndiri 
+global.povo = '083837709331'
 global.pgopay = '-'
 global.ppulsa = '-'
-global.ppulsa2 = '-'
+global.ppulsa2 = '083837709331'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285904284057'
-global.nomorown = '6285904284057' //ganti nomor owner
-global.namebot = 'Khoiyrul Botzོ'
-global.nameown = "ᴹᴿ᭄ Pak Zainal Dev'sོ ×፝֟͜×"
-global.developer = "Zainal"
+global.nomorbot = '085954708804'
+global.nomorown = '6283837709331' //ganti nomor owner
+global.namebot = 'FuadBoTz'
+global.nameown = 'FuadZy'
+global.developer = 'FuadZy'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ["6289636371132", "ᴹᴿ᭄ Pak Zainal Dev'sོ ×፝֟͜×", "true"]
+  ['6283837709331', 'FuadZy', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -103,16 +103,16 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'By Khoiyrul Botzོ' //Main Watermark
-global.wm2 = "ᴹᴿ᭄ Pak Zainal Dev'sོ ×፝֟͜×"
-global.wm3 = "𝙺𝙷𝙾𝙸𝚈𝚁𝚄𝙻 𝙱𝙾𝚃𝚉 | 𝙱𝚈 𝙿𝙰𝙺 𝚉𝙰𝙸𝙽𝙰𝙻 𝙳𝙴𝚅'𝚂"
+global.wm = 'By Fuad BoTz' //Main Watermark
+global.wm2 = 'Fuad'
+global.wm3 = 'FuadBoTz | By FuadZy'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `𝙺𝙷𝙾𝙸𝚈𝚁𝚄𝙻 𝙱𝙾𝚃𝚉 | 𝙱𝚈 𝙿𝙰𝙺 𝚉𝙰𝙸𝙽𝙰𝙻 𝙳𝙴𝚅'𝚂`
-global.author = "ᴹᴿ᭄ Pak Zainal Dev'sོ ×፝֟͜×"
-global.packname = 'Khoiyrul Botzོ'
+global.titlebot = `Fuad BoTz | ʙʏ ${global.nameown}`
+global.author = 'FuadZy' 
+global.packname = 'Fuad BoTz'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'Agustus 8 2023'
+global.ultahowner = 'Maret 20 2023'
 
 
 /*============== LOGO ==============*/
@@ -124,14 +124,14 @@ global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
 global.thumbWarn = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.botintro = "Hallo, Kenalin saya Khoiyrul Botzོ Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh ᴹᴿ᭄ Pak Zainal Dev'sོ ×፝֟͜× Saya di rilis pada tanggal\n🗓 ️_16/10/2022_"
+global.botintro = 'Hallo, Kenalin saya RullBotz Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh Rull Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
 global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = "ᴹᴿ᭄ Pak Zainal Dev'sོ ×፝֟͜×"
-global.umurowner = '13'
-global.asalowner = 'Jawa Timur, Banyuwangi'
-global.nomorowner = 'wa.me/6289636371132'
-global.pacarowner = 'Private🔒'
+global.nameowner = 'FuadZy'
+global.umurowner = '?'
+global.asalowner = 'Jawa Timur, Gresik'
+global.nomorowner = 'wa.me/6283837709331'
+global.pacarowner = '-'
 
 /*============== TEXT ==============*/
 global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
@@ -379,8 +379,8 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
-global.stickpack = "By ᴹᴿ᭄ Pak Zainal Dev'sོ ×፝֟͜×"
-global.stickauth = `Khoiyrul Botzོ`
+global.stickpack = 'By RullBotz'
+global.stickauth = `RulBotz`
 
 global.multiplier = 38 // The higher, The harder levelup
 
