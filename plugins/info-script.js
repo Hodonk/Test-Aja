@@ -1,37 +1,16 @@
-let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let imgr = flaaa.getRandom()
-let text = `*SYARAT & KETENTUAN*
-    
-
-📮 S&K
-1. Jangan diperjual belikan Script ini
-2. Jangan salah gunakan script ini!
-3. Jangan lupa Subscribe Youtube
-4. Jangan di per jual belikan
-• Jika ada eror di sc hub https://wa.me/6289636371132
-
---------Thanks to ✨---------
-Allah SWT
-My parents
-All Friends
-All Contributors
-All Creator Bot
-Adiwajshing
-Nurutomo
-BochilGaming`
-const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://youtube.com/@hagozox'}},
-]
-let tm = {
-text: text,
-footer: global.bottime,
-templateButtons: templateButtons,
-image: `${imgr + 'Script'}`,
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+let info = `'0@s.whatsapp.net', 'Script? Buy 80K', 'status@broadcast')
 }
-conn.sendMessage(m.chat, tm, m)
-}
-handler.help = ['sc'] 
- handler.tags = ['info'] 
- handler.command = /^(s(ourcode|c))$/i 
-  
- export default handler
+handler.command = /^(sc)$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+
+export default handler

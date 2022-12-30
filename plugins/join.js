@@ -1,27 +1,52 @@
-let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})( [0-9]{1,3})?/i
-
-let handler = async (m, { conn, text, isOwner }) => {
-	let user = global.db.data.users[m.sender]
-	if (user.joinlimit == 0) throw 'Limit Join anda sudah habis! (0 / 1)'
-    let [_, code, expired] = text.match(linkRegex) || []
-    if (!code) throw 'Link invalid'
-    let res = await conn.groupAcceptInvite(code)
-    let expiredd = 86400000
-    expired = Math.floor(Math.min(1, Math.max(1, isOwner ? isNumber(expired) ? parseInt(expired) : 0 : 1)))
-user.joinlimit -= 1
-    m.reply(`✔️ Berhasil join grup ${res}\n📛 BOT AKAN KELUAR DALAM 1 HARI`)
-    m.reply(`(${user.joinlimit}/1) Limit For Using Join`)
-    let chats = global.db.data.chats[res]
-    if (!chats) chats = global.db.data.chats[res] = {}
-    if (expired) chats.expired = +new Date() + expired * 1000 * 60 * 60 * 24
+import fs from 'fs'
+import fetch from 'node-fetch'
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+let info = `📮BOT Gak Bisa Join Sana Sini Sembarangan (≧∇≦)/`
+let thumbs = `https://telegra.ph/file/579113e790fe526d676cf.jpg`
+let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+const message = {
+            document: { url: thumbs },
+            jpegThumbnail: await (await fetch(thumbs)).buffer(), fileName: global.wm, mimetype: td, fileLength: '9999999', pageCount: '999',
+            caption: info,
+            footer: wm + '\nSupport FuadBoTz',
+            templateButtons: [
+                {
+                    urlButton: {
+                        displayText: 'Group Official',
+                        url: 'https://chat.whatsapp.com/EAR7T7H59vOJz8KcwMP179',
+                    }
+                },
+                {
+                    urlButton: {
+                        displayText: 'Creator Bot',
+                        url: 'https://wa.me/6283837709331',
+                    }
+                },
+                {
+                    quickReplyButton: {
+                        displayText: 'MENU',
+                        id: '.menu'
+                    }
+                },
+                {
+                    quickReplyButton: {
+                        displayText: 'SPEED',
+                        id: '.ping'
+                    }
+                },
+                {
+                    quickReplyButton: {
+                        displayText: 'SEWA BOT',
+                        id: '.sewa'
+                    }
+                },
+            ]
+        }
+       // conn.sendMessage(m.chat, message, m)
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', 'Awokawok Minta Owner Masukin!', 'status@broadcast')
 }
-handler.help = ['join <chat.whatsapp.com>']
-handler.tags = ['premium']
-handler.private = true
-handler.limit = true
-
-handler.command = /^join$/i
+handler.help = ['join']
+handler.tags = ['info']
+handler.command = /^(join)$/i
 
 export default handler
-
-const isNumber = (x) => (x = parseInt(x), typeof x === 'number' && !isNaN(x))

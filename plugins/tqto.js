@@ -12,7 +12,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 let cap = `*BIG THANKS TO*
     
 Terutama Terimakasih Teruntuk:
-➸ @${'6288279268363'.split('@')[0]}
+➸ @${'6283837709331'.split('@')[0]}
 
 Terimakasih Juga Untuk Kang Banned:
 ➸ 0@s.whatsapp.net
@@ -20,7 +20,8 @@ Terimakasih Juga Untuk Kang Banned:
 ─────────────────────
 • ALLAH SWT
 • My ortu
-• Rull ( Me )
+• FuadZy ( Me )
+• RullZy
 • Nurutomo
 • Adiwajshing
 • Ariffb
@@ -44,7 +45,6 @@ Terimakasih Juga Untuk Kang Banned:
 • Atenabot
 • Baka Botz
 • ZeeoneOfc
-• Pak Zainal Dev's
 • Zeks
 • Rendycraft  
 • Krizynofc
@@ -58,22 +58,22 @@ Terimakasih Juga Untuk Kang Banned:
 • Orang-orang yang Berdonasi
 ─────────────────────`
   let buttonMessage= {
-'document':{'url':'https://youtube.com/@hagozox'},
+'document':{'url':'https://chat.whatsapp.com/EAR7T7H59vOJz8KcwMP179'},
 'mimetype':global.ddocx,
-'fileName':'「 Khoiyrul Botz 」',
+'fileName':'「 FuadZy 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtube.com/@hagozox',
+'mediaUrl':'https://chat.whatsapp.com/EAR7T7H59vOJz8KcwMP179',
 'mediaType':2,
 'previewType':'pdf',
 'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
 'body':`RulZy`,
 'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
-'sourceUrl':'https://youtube.com/@hagozox'}},
+'sourceUrl':'https://chat.whatsapp.com/EAR7T7H59vOJz8KcwMP179'}},
 'caption':cap,
 'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
 
